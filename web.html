@@ -8,23 +8,44 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <!-- Custom CSS -->
-  <style>
-  body {
-    height: 100%;
+    body, html {
+      height: 100%;
+      margin: 0;
   }
-  #cover{
-    background: #222 url(<img src= "yale.jpg">) center center no-repeat;
+  
+  .yale-image {
+    background-image: url("yale.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    color: black;
-    height: 100%;
+    position: relative;
+  }
+  
+  .yale-text {
     text-align: center;
-    display: flex;
-    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
   }
-  #cover-caption{
-    width: 100%;
+  
+  .yale-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
   }
-  </style>
+  
+  .yale-text button:hover {
+    background-color: #555;
+    color: white;
+  }
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
