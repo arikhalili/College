@@ -1,5 +1,4 @@
-
-  <!DOCTYPE html>
+ <!DOCTYPE html>
   <html lang="en">
   <head>
   <meta charset="utf-8">
@@ -8,44 +7,23 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <!-- Custom CSS -->
-    body, html {
-      height: 100%;
-      margin: 0;
+  <style>
+  body {
+    height: 100%;
   }
-  
-  .yale-image {
-    background-image: url("yale.jpg");
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
+  #cover{
+    background: #222 url(<img src= "yale.jpg">) center center no-repeat;
     background-size: cover;
-    position: relative;
-  }
-  
-  .yale-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
-  
-  .yale-text button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
     color: black;
-    background-color: #ddd;
+    height: 100%;
     text-align: center;
-    cursor: pointer;
+    display: flex;
+    align-items: center;
   }
-  
-  .yale-text button:hover {
-    background-color: #555;
-    color: white;
+  #cover-caption{
+    width: 100%;
   }
+  </style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
@@ -73,24 +51,25 @@
 
   <br>
 
+  
   </div>
   </div>
   </div>
   </section>
 
   <nav class="navbar navbar-inverse bg-primary">
-   <div class="container-fluid">
-  <div class="navbar-header">
-  <a class="navbar-brand" href="">WebSiteName</a>
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
   </div>
-  <ul class="nav navbar-nav">
-  <li class="active"><a href="">Home</a></li>
-  <li><a href="aboutus.html">Page 1</a></li>
-  <li><a href="">Page 2</a></li>
-  <li><a href="">Page 3</a></li>
-  </ul>
-   </div>
-  </nav>
+</nav>
 
 
 
@@ -99,3 +78,4 @@
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   </body>
   </html>
+ 
