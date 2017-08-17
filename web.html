@@ -49,10 +49,7 @@
     max-height: 72px;
     max-width: 250px;
 }
-    .global-header {
-      height: 100px;
-      background-image: url("yale.jpg");
-      background-size: cover;
+    
 
 
       
@@ -68,21 +65,8 @@
 
 
 <body>
-  <script>
-//Array of images which you want to show: Use path you want.
-var images=new Array('yale.jpg', 'Brown.jpg', 'Cooper-Union.jpg');
-var nextimage=0;
-function doSlideshow(){
-    if(nextimage>=images.length){nextimage=0;}
-    $('.global-header')
-    .css('background-image','url("'+images[nextimage++]+'")')
-    .fadeIn(500,function(){
-        setTimeout(doSlideshow,1000);
-    });
-doSlideshow();
+  
 
-}
-</script>
 
   <nav class="navbar navbar-expand-sm navbar-light bg-faded">
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
