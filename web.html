@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- 
- 
+
+
   <meta charset="utf-8">
   <title>CAPP</title>
   <meta name="description" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -47,10 +47,14 @@
     .yale-text button:hover {
       background-color: #555;
       color: white;}
-    .logo {
-    width: 100px;
+
+    .img-responsive {
     height: auto;
-    }
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
+}
+
   </style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
   </script>
@@ -61,37 +65,37 @@
 
 
 <body>
-   <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#">
-        <div class = "logo">
-          
-          
-          
-        <img src= "Untitled drawing.jpg"> 
-        </div> 
-       
-    </a>
-        
-      <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav stay-open" >
-            <li class="nav-item active">
-              <a class="nav-link" href="#">List of Colleges <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Calendar</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">ACT/SAT Dates</a>
-            </li>
-             <li class="nav-item">
-              <a class="nav-link" href="#">Meet the Creator </a>
-            </li>
-          </ul>
-      </div>
-  </nav>
+   
+  <nav class="navbar navbar-expand-sm navbar-light bg-faded">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<!-- Brand -->
+<a class="navbar-brand" href="#">
+<img src="Untitled drawing.jpg" class="img-responsive" alt=""/>
+  <!--<img class="navbar-brand" src="Untitled drawing.jpg" class="img-responsive" alt="logo">-->
+
+</a>
+
+<!-- Links -->
+<div class="collapse navbar-collapse" id="nav-content">
+<ul class="navbar-nav">
+<li class="nav-item">
+<a class="nav-link" href="#">List of Colleges</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Calendar</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">SAT/ACT Dates</a>
+<li class="nav-item">
+<a class="nav-link" href="#">Meet the Creators</a>
+</li>
+</li>
+</ul>
+</div>
+</nav>
   <div class="yale-image">
     <div class="yale-text">
 
