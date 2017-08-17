@@ -10,12 +10,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <!-- Custom CSS -->
   <style>
-
     body, html {
         height: 100%;
         margin: 0;
     }
-
     /*.yale-image {
         background-image: url("yale.jpg");
         height: 100%;
@@ -32,7 +30,6 @@
         transform: translate(-50%, -50%);
         color: white;
     }
-
     .yale-text button {
       border: none;
       outline: 0;
@@ -43,11 +40,9 @@
       text-align: right;
       cursor: pointer;
     }
-
     .yale-text button:hover {
       background-color: #555;
       color: white;} */
-
     .img-responsive {
     height: auto;
     width: auto;
@@ -55,14 +50,14 @@
     max-width: 250px;
 }
     .global-header {
-    background-image: url("yale.jpg");
-        height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-}
+      height: 100%;
+      background-image: url("yale.jpg");
+      background-size: cover;
 
+
+      
+}
+}
   </style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
   </script>
@@ -75,10 +70,9 @@
 <body>
   <script>
 //Array of images which you want to show: Use path you want.
-var images=new Array('yale.jpg, Brown.jpg, Cooper-Union.jpg');
+var images=new Array('yale.jpg', 'Brown.jpg', 'Cooper-Union.jpg');
 var nextimage=0;
 doSlideshow();
-
 function doSlideshow(){
     if(nextimage>=images.length){nextimage=0;}
     $('.global-header')
