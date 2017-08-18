@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+   <body background="upenn.jpg">
+</body>
+
+<head>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+
+  /*body{
+    float:left;
+    display: block;
+    /*vertical-align: middle;*/
+    /*text-align: justify;*/
+    /*margin: auto;*/
+     /*margin: 0px 0px 15px 15px;*/
+    /*margin-left: 10%;
+    margin-right: 10%;*/
+
+    /*display: table-cell;*/
+    /*max-width: 120px;*/
+    /*padding:3%;*/
+    /*display: block;
+     float:left;
+     width: 23%;
+     margin-bottom: 16px;
+
+     padding: 0 8px;
+     display: flex;*/
+
+    /*}*/
+      /*column {
+   display: block;
+    float:left;
+    width: 23%;
+    margin-bottom: 16px;
+
+    padding: 0 8px;
+    display: flex;
+}*/
+ /*//@media (max-width: 650px) {
+  .column
+        width: 100%;
+        display:inline-block;
+         float:left;
+    }
+}
+  .card {
+    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2);
+}
+  .container {
+    padding: 0 16px;
+}
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}*/
+  .title {
+    color: grey;
+}
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+  .button:hover {
+    background-color: #555;
+}
+    .img-responsive {
+    height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
+}
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+  </script>
+
+</head>
+
+<head>
+<p style=" padding-top: 70px;"> <nav class="navbar navbar-expand-sm navbar-light bg-faded">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<!-- Brand -->
+<a class="navbar-brand" href="#">
+<img src="Untitled drawing.jpg" class="img-responsive" alt=""/>
+<!--<img class="navbar-brand" src="Untitled drawing.jpg" class="img-responsive" alt="logo">-->
+
+</a>
+
+<!-- Links -->
+<div class="collapse navbar-collapse" id="nav-content">
+<ul class="navbar-nav">
+<li class="nav-item">
+<a class="nav-link" href="#">List of Colleges</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Calendar</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://arikhalili.github.io/College/SATACTdates.html">SAT/ACT Dates</a>
+<li class="nav-item">
+<a class="nav-link" href="https://arikhalili.github.io/College/meet_the_creators.html">Meet the Creators</a>
+</li>
+</li>
+</ul>
+</div>
+</nav> </p>
+</head>
+<body>
+
+
+<div class="container">
+    <div class="row text-center">
+        <div class="col-md-2 col-md-offset-1">
+            <img src="ariella.jpg">
+              <h2>Ariella Khalili</h2>
+            <p class="title">Student</p>
+            <p>Ariella Khalili is a rising Junior at North shore  Hebrew Academy, Long Island. Ariella is interested in the STEM field and enjoys making games in her free time. Ariella loves spending time with her friends and watching Netflix!</p>
+            <p>ajandpbnj@gmail.com</p>
+            <p><button class="button">Contact</button></p>
+    </div>
+        <div class="col-md-2">
+            <img src="senthia.jpg">
+            <h2>Senthia Ahmed</h2>
+            <p class="title">Student</p>
+            <p>Senthia Ahmed is currently a rising Junior at Brooklyn Technical High school in Brooklyn New York. She is currently in the Civil Engineering Major. She hopes to enter the engineering field and loves to travel! Senthia loves to learn about new things and wishes to continue growing as an individual.
+
+    </p>
+            <p>sahmed2536@bths.edu</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+
+         <div class="col-md-2">
+            <img src="kathy.JPG">
+            <h2>Kathy Song</h2>
+            <p class="title">Student</p>
+            <p>Kathy Song is currently a rising senior in the Law and Society Major at Brooklyn Technical High School in New York City, she is interested in law and government, and hopes to pursue a career in international relations. In  her free time, she likes to learn about different countries and listen to audiobooks.</p>
+            <p>ksong0343@bths.edu</p>
+            <p><button class="button">Contact</button></p>
+        </div>
+         <div class="col-md-2">
+            <img src="ritika2.jpg">
+            <h2>Ritika Shamdasani</h2>
+            <p class="title">Student</p>
+            <p>Ritika Shamdasani is currently a rising junior at  Terrysanford Highschool in North Carolina. She enjoys coding in her free time and is involved in a lot of extracurricular activities including: Key Club, Varsity Tennis, Student Government, and the Math honors society.
+    </p>
+            <p>rshamdasani1@gmail.com</p>
+            <p><button class="button">Contact</button></a>
+    </p>
+
+        </div>
+         <div class="col-md-2">
+            <img src="//placehold.it/100x100/9c6/cf9/?text=5">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
