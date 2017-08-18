@@ -1,0 +1,366 @@
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SAT / ACT Dates</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <style>
+      .img-responsive {
+    height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
+      }
+      
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+  </script>
+  
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-faded">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<!-- Brand -->
+<a class="navbar-brand" href="https://arikhalili.github.io/College/web.html">
+<img src="Untitled drawing.jpg" class="img-responsive" alt=""/>
+  <!--<img class="navbar-brand" src="Untitled drawing.jpg" class="img-responsive" alt="logo">-->
+
+</a>
+
+<!-- Links -->
+<div class="collapse navbar-collapse" id="nav-content">
+<ul class="navbar-nav">
+<li class="nav-item">
+<a class="nav-link" href="#">List of Colleges</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Calendar</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://arikhalili.github.io/College/SATACTdates.html">SAT/ACT Dates</a>
+<li class="nav-item">
+<a class="nav-link" href="https://arikhalili.github.io/College/meet_the_creators.html">Meet the Creators</a>
+</li>
+</li>
+</ul>
+</div>
+</nav>
+  
+  <div class="container">
+    <h3>What is the SAT? <h3>
+    <p>The SAT is a standardized college entrance exam accepted by most schools and universities as one of the many factors used to admit new students each school year.</p><br>
+     <table class="table table- hover">
+       <thead>
+         <tr>
+         <th>Important Details about the SAT</th>
+           </tr>
+         </thead>
+       <tbody>
+         <tr>
+         <td>Duration</td>
+           <td>3 hours and 50 minutes</td>
+           </tr>
+         <tr>
+           <td>Parts of the Test</td>
+           <td>	Math, Evidence-Based Reading and Writing, Optional Essay</td>
+         </tr>
+         <tr>
+         <td>Cost</td>
+         <td>$54.50 ($43 without Essay)</td>
+           </tr>
+         <tr>
+           <td>Maximum Score </td>
+           <td>800 per section<br> 1600 for whole test</td>
+           </tr>
+         <tbody>
+       </table>
+    <h3>What are SAT Subject Tests?<h3>
+  <p></p><br>
+    
+      <p><a href="https://collegereadiness.collegeboard.org/sat/register/dates-deadlines">Register for the SAT!</a><br><br>
+        <a href="https://collegereadiness.collegeboard.org/sat-subject-tests/register/test-dates-deadlines">Register for the SAT Subject Test!</a></p>
+<br><table class="table table-hover">
+  <thead>
+    <tr>
+      <th>SAT and SAT Subject Tests</th>
+</tr>
+    <tr>
+  <th>SAT Dates</th>
+  <th>Deadline</th>
+  <th>Late Registration Deadline<br>*Late fee required.*</th>
+  <th>Deadline for Requesting Changes</th>
+  <th>SAT Subjects</th>
+  <th>SAT Subject Deadline</th>
+  <th>SAT Subject Late Deadline<br>*Late fee required.*</th>
+</tr>
+    </thead>
+  <tbody>
+  <tr>
+    <td>August 26, 2017</td>
+    <td>July 28, 2017</td>
+    <td>August 8, 2017</td>
+    <td>August 15, 2017</td>
+    <td>Literature<br>U.S. History<br>World History<br>Mathematics Level 1<br>Mathematics Level 2<br>Biology E/M
+<br>Chemistry<br>Physics<br>French<br>Spanish</td>
+    <td>July 28, 2017</td>
+    <td>August 8, 2017 (for mailed registrations)<br>August 15, 2017 (for registrations made online or by phone)</td>
+  </tr>
+  <tr>
+    <td>October 7, 2017</td>
+    <td>September 8, 2017</td>
+    <td>September 19, 2017 (for mailed registrations)<br>September 27, 2017 (for registrations made online or by phone)
+</td>
+    <td>September 27, 2017</td>
+    <td>Literature<br>U.S. History<br>Mathematics Level 1<br>Mathematics Level 2<br>Biology E/M<br>Chemistry<br>Physics<br>French
+<br>Spanish</td>
+    <td>September 8, 2017</td>
+    <td>September 19, 2017 (for mailed registrations)<br>September 27, 2017 (for registrations made online or by phone
+</td>
+  </tr>
+  <tr>
+    <td>November 4, 2017</td>
+    <td>October 5, 2017</td>
+    <td>October 17, 2017 (for mailed registrations)<br>October 25, 2017 (for registrations made online or by phone)
+    </td>
+    <td>October 25, 2017</td>
+    <td>Literature<br>U.S. History<br>Mathematics Level 1<br>Mathematics Level 2<br>Biology E/M<br>Chemistry<br>Physics<br>French with Listening<br>German with Listening<br>Spanish with Listening<br>Chinese with Listening<br>Japanese with Listening<br>Korean with Listening
+</td>
+    <td>October 5, 2017</td>
+    <td>October 17, 2017 (for mailed registrations)<br>October 25, 2017 (for registrations made online or by phone)
+</td>
+    </tr>
+  <tr>
+    <td>December 2, 2017</td>
+    <td>November 2, 2017</td>
+    <td>November 14, 2017 (for mailed registrations)<br>November 21, 2017 (for registrations made online or by phone
+    </td>
+    <td>November 21, 2017</td>
+    <td>Literature<br>U.S. History<br>World History<br>Mathematics Level 1<br>Mathematics Level 2<br>Biology E/M<br>Chemistry<br>Physics<br>French<br>Spanish<br>Latin
+    </td>
+    <td>November 2, 2017</td>
+    <td>November 14, 2017 (for mailed registrations)<br>November 21, 2017 (for registrations made online or by phone)
+</td>
+    </tr>
+  <tr>
+    <td>March 10, 2018</td>
+    <td>February 9, 2018</td>
+    <td>February 20, 2018 (for mailed registrations)<br>February 28, 2018 (for registrations made online or by phone)
+    </td>
+    <td>February 28, 2018</td>
+    <td>SAT Subject Tests not offered on this date</td>
+    <td></td>
+    <td></td>
+    </tr>
+  <tr>
+    <td>May 5, 2018</td>
+    <td>April 6, 2018</td>
+    <td>April 17, 2018 (for mailed registrations)<br>April 25, 2018 (for registrations made online or by phone)
+    </td>
+    <td>April 25, 2018</td>
+    <td>Literature<br>U.S. History<br>Mathematics Level 1<br>Mathematics Level 2<br>Biology E/M<br>Chemistry<br>Physics<br>French<br>Spanish
+</td>
+    <td>April 6, 2018</td>
+    <td>April 17, 2018 (for mailed registrations)<br>April 25, 2018 (for registrations made online or by phone)
+</td>
+    </tr>
+  <tr>
+    <td>June 2, 2018</td>
+    <td>May 3, 2018</td>
+    <td>May 15, 2018 (for mailed registrations)<br>May 23, 2018 (for registrations made online or by phone)</td>
+    <td>May 23, 2018</td>
+    <td>Literature<br>U.S. History<br>World History<br>Mathematics Level 1<br>Mathematics Level 2<br>Biology E/M<br>Chemistry<br>Physics<br>French<br>German<br>Spanish<br>Modern Hebrew<br>Italian<br>Latin
+</td>
+    <td>May 3, 2018</td>
+    <td>May 15, 2018 (for mailed registrations)<br>May 23, 2018 (for registrations made online or by phone)
+</td>
+    </tr>
+    </tbody>
+</table>
+      </div>
+      <div class="container">
+        <br><h3>What is the ACT?<h3>
+          <p> </p><br>
+    <p><a href="http://www.act.org/content/act/en/products-and-services/the-act/registration.html">Register for the ACT!</a></p>
+      <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>ACT Test Dates</th>
+              </tr>
+            <tr>
+              <br>
+            <th>ACT Test Date</th>
+            <th>Registration Deadline</th>
+            <th>Late Registration<br>*Late fee required.* </th>
+              </tr>
+            </thead>
+          <tbody>
+            <tr>
+            <td>September 9, 2017</td>
+            <td>August 4, 2017</td>
+             <td>August 5-18, 2017</td>
+              </tr>
+            <tr>
+              <td>October 28, 2017</td>
+              <td>September 22, 2017</td>
+             <td>September 23-October 6, 2017</td>
+            </tr>
+            <tr>
+              <td>December 9, 2017</td>
+              <td>November 3, 2017</td>
+              <td>November 4-17, 2017</td>
+            </tr>
+            <tr>
+              <td>February 10, 2018*</td>
+              <td>January 12, 2018</td>
+              <td>January 13-19, 2018</td>
+            </tr>
+            <tr>
+              <td>April 14, 2018</td>
+              <td>March 9, 2018</td>
+              <td>March 10-23, 2018</td>
+            </tr>
+            <tr>
+              <td>June 9, 2018</td>
+              <td>May 4, 2018</td>
+              <td>May 5-18, 2018</td>
+            </tr>
+            <tr>
+              <td>September 8, 2018</td>
+              <td>TBD</td>
+              <td>TBD</td>
+            </tr>
+            <tr>
+              <td>October 27, 2018</td>
+              <td>TBD</td>
+              <td>TBD</td>
+            </tr>
+            <tr>
+            <td>December 8, 2018</td>
+            <td>TBD</td>
+            <td>TBD</td>
+            </tr>
+            <tr>
+            <td>February 9, 2019*</td>
+            <td>TBD</td>
+            <td>TBD</td>
+            </tr>
+            <tr>
+            <td>April 13, 2019</td>
+            <td>TBD</td>
+            <td>TBD</td>
+            </tr>
+            <tr>
+            <td>June 8, 2019</td>
+            <td>TBD</td>
+            <td>TBD</td>
+            </tr>
+            <tr>
+            <td>July 13, 2019* </td>
+            <td>TBD</td>
+            <td>TBD</td>
+            </tr>
+            </tbody>
+          </table>
+      </div>
+        <div class="container">
+         <br> <h3>What are AP exams?<h3>
+            <p></p><br>
+            <p><a href="">Find out more information.<a> </p><br>
+              <table class="table table-hover">
+            <thead>
+              <tr>
+              <th>AP Exam Dates</th>
+                </tr>
+              <tr>
+                <th>AP Exam Date</th>
+                <th>Morning 8 am</th>
+                <th>Afternoon 12 noon</th>
+                <th>Afternoon 2 pm</th>
+                </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                  <td>Monday,<br> May 7, 2018</td>
+                  <td>Chemistry<br>Spanish Literature and Culture</td>
+                  <td>Psychology</td>
+                  <td></td>
+                  </tr>
+                  <tr>
+                    <td>Tuesday,<br> May 8, 2018</td>
+                    <td>Seminar<br>Spanish Language and Culture</td>
+                    <td>Art History<br>Physics 1: Algebra-Based</td>
+                    <td></td>
+                    </tr>
+                  <tr>
+                  <td>Wednesday,<br>May 9, 2018</td>
+                    <td>English Literature and Composition</td>
+                    <td>Japanese Language and Culture<br>Physics 2: Algebra-Based</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                  <td>Thursday,<br>May 10, 2018</td>
+                    <td>United States Government and Politics</td>
+                    <td>Chinese Language and Culture<br>Environmental Science</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                  <td>Friday,<br>May 11, 2018</td>
+                  <td>German Language and Culture<br>United States History<br></td>
+                  <td>Computer Science Principles</td>
+                  <td></td> 
+                  </tr>
+                  <tr>
+                    <td>Studio Art — last day for coordinators to submit digital portfolios (by 8 p.m. ET) and to gather 2-D Design and Drawing students for physical portfolio assembly.
+                      <br>Teachers should have forwarded students’ completed digital portfolios to coordinators before this date.</td>
+                    </tr>
+                  <tr>
+                    <td>Week 2</td>
+                    <td>Morning 8 am</td>
+                    <td>Afternoon 12 noon</td>
+                    <td>Afternoon 2 pm</td>   
+                    </tr>
+                  <tr>
+                  <td>Monday,<br>May 14, 2018</td>
+                  <td>Biology<br>Music Theory</td>
+                  <td>Physics C: Mechanics</td>
+                  <td>Physics C: Electricity and Magnetism</td>
+                  </tr>
+                  <tr>
+                  <td>Tuesday,<br>May 15, 2018</td>
+                  <td>Calculus AB<br>Calculus BC</td>
+                  <td>French Language and Culture<br>Computer Science A</td>
+                  <td></td>
+                  </tr>
+                  <tr>
+                  <td>Wednesday,<br>May 16, 2018</td>
+                  <td>English Language and Composition</td>
+                  <td>Italian Language and Culture<br>Macroeconomics</td>
+                  <td></td>
+                  </tr>
+                  <tr>
+                  <td>Thursday,<br>May 17, 2018</td>
+                  <td>Comparative Government and Politics<br>World History</td>
+                  <td>Statistics</td>
+                  <td></td>
+                  </tr>
+                  <tr>
+                  <td>Friday,<br>May 18, 2018</td>
+                  <td>Human Geography<br>Microeconomics</td>
+                  <td>European History<br>Latin</td>
+                  <td></td>
+                  </tr>
+                </tbody>
+            </table>
+          </div>
+</body>
+</html>
