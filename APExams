@@ -50,7 +50,7 @@
 <li class="dropdown">
     <a href="https://arikhalili.github.io/College/SATdates.html" class="dropbtn">SAT/ACT Dates</a>
     <div class="dropdown-content">
-      <a href="https://arikhalili.github.io/College/SATdates.html">SAT</a>
+      <a href="https://arikhalili.github.io/College/SATACTdates.html">SAT</a>
       <a href="https://arikhalili.github.io/College/ACTdates.html">ACT</a>
       <a href="https://arikhalili.github.io/College/APExams.html">AP Exams</a>
     </div>
