@@ -61,7 +61,11 @@
 </ul>
 </div>
 </nav>
-  
+  <ul class="nav nav-pills nav-stacked">
+  <li role="presentation" class="active"><a href="https://arikhalili.github.io/College/SATACTdates.html">SAT and SAT Subject Tests</a></li>
+  <li role="presentation"><a href="https://arikhalili.github.io/College/ACTdates.html">ACT</a></li>
+  <li role="presentation"><a href="https://arikhalili.github.io/College/APExams.html">AP Exams</a></li>
+</ul>
   <div class="container">
              <br> <h3>What are AP exams?<h3>
             <p></p><br>
